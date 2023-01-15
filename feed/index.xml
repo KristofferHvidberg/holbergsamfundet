@@ -9,7 +9,7 @@
 
 <channel>
 	<title>User&#039;s Blog!</title>
-	<atom:link href="http://localhost/feed/?simply_static_page=408" rel="self" type="application/rss+xml" />
+	<atom:link href="/feed/?simply_static_page=408" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>HOLBERGSAMFUNDET</description>
 	<lastBuildDate>Sun, 15 Jan 2023 20:11:05 +0000</lastBuildDate>

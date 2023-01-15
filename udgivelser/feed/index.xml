@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Kommentarer til: 	</title>
-	<atom:link href="http://localhost/udgivelser/feed/?simply_static_page=450" rel="self" type="application/rss+xml" />
+	<atom:link href="/udgivelser/feed/?simply_static_page=450" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>HOLBERGSAMFUNDET</description>
 	<lastBuildDate>Sun, 15 Jan 2023 20:11:05 +0000</lastBuildDate>

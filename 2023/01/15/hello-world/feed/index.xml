@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Kommentarer til: Hello world!	</title>
-	<atom:link href="http://localhost/2023/01/15/hello-world/feed/?simply_static_page=462" rel="self" type="application/rss+xml" />
+	<atom:link href="/2023/01/15/hello-world/feed/?simply_static_page=462" rel="self" type="application/rss+xml" />
 	<link>/2023/01/15/hello-world/</link>
 	<description>HOLBERGSAMFUNDET</description>
 	<lastBuildDate>Sun, 15 Jan 2023 20:11:05 +0000</lastBuildDate>
