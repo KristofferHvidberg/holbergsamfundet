@@ -1,0 +1,56 @@
+#main-superfish-wrapper{ float: left; margin-top: 8px; }
+
+div.header-right-side2 ul.sf-menu li .gdl-menu-text{ padding-bottom: 4px; 
+	border-bottom-width: 2px; border-bottom-style: solid; }
+div.header-right-side2 ul.sf-menu li li .gdl-menu-text{ border-bottom-width: 0px; }
+
+ul.sf-menu, .sf-menu * { margin: 0; padding: 0; list-style: none; }
+ul.sf-menu { line-height: 1; }
+ul.sf-menu li{ float: left; position: relative; }
+ul.sf-menu li:hover { visibility: inherit; } /* fixes IE7 'sticky bug' */
+ul.sf-menu li a { padding-left: 14px; padding-right: 14px;
+	line-height: 13px; text-decoration:none; display: block; position: relative;
+	border-left-width: 1px; border-left-style: solid; }
+ul.sf-menu li:first-child a{ padding-left: 0px; border-left: 0px; }
+ul.sf-menu li:last-child a{ border-right-width: 1px; border-right-style: solid; }
+
+/*--- sub menu ---*/
+ul.sf-menu li:hover ul,
+ul.sf-menu li.sfHover ul { left: 0; z-index: 101; top: 30px; }
+ul.sf-menu li.sfHover ul a{ border-style: solid; border-top-width: 1px; border-bottom-width: 1px; }
+ul.sf-menu li.sfHover ul li:first-child a{ border-top-width: 4px; }
+ul.sf-menu li.sfHover ul ul{ padding-top: 0; }
+
+ul.sf-menu ul { text-align: left; width: 11em; font-size: 13px; }
+ul.sf-menu ul { position: absolute; top: -999em; width: 10em; }/* left offset of submenus need to match (see below) */
+ul.sf-menu ul li { width: 100%; padding: 0px 0px; }
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul,
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul{ top: -999em; }
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul,
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul { left: 10em; top: -3px; margin-left: 1px; } /* match ul width */
+
+ul.sf-menu li li:last-child{ border: 0px; }
+ul.sf-menu li li a{ line-height: 23px; height: auto; padding: 0px 15px; background: none !important; }
+ul.sf-menu ul li a{ padding: 7px 15px !important; border-style: solid;
+	border-width: 0px; border-top-width: 0px;  }
+	
+.sf-menu li.current-menu-ancestor a, 
+.sf-menu li.current-menu-item a, 
+.sf-menu li.current-post-ancestor a{ font-weight: bold; }
+
+.sf-menu li.current-menu-ancestor li a, 
+.sf-menu li.current-menu-item li a, 
+.sf-menu li.current-post-ancestor li a{ font-weight: normal; }
+
+ul.sf-menu .sub-menu{
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.20);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.20); }
+	
+.sf-sub-indicator { margin-left: 3px; }
